@@ -1,4 +1,5 @@
-import { username, city, image } from "../data/user";
+import { username, city} from "../components/user";
+import {image} from "../components/user"
 
 test("username, city, and image are all exported", () => {
   expect(username).toEqual("Liza");
